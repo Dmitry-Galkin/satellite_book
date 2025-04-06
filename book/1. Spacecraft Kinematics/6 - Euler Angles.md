@@ -125,7 +125,7 @@ $$
 	
 	\sin{\gamma} \cos{\psi} \sin{\vartheta} + \cos{\gamma} \sin{\psi} &
 	-\sin{\gamma} \cos{\vartheta} &
-	-\sin{\gamma} \sin{\psi} \sin{\vartheta} + \cos{\gamma} \cos{\vartheta}
+	-\sin{\gamma} \sin{\psi} \sin{\vartheta} + \cos{\gamma} \cos{\psi}
 \end{pmatrix}.
 $$
 
@@ -166,7 +166,7 @@ $$
 \gamma = \textrm{arctg}\left(-{\dfrac{\textbf{C}_{32}}{\textbf{C}_{22}}} \right), \\
 \psi = \textrm{arctg}\left(-{\dfrac{\textbf{C}_{13}}{\textbf{C}_{11}}}\right), \\
 \vartheta = \arcsin{\textbf{C}_{12}}. \\
-\end{cases}
+\end{cases}\tag{6.1}
 $$
 
 При программировании вместо арктангенса правильнее использовать функцию $\text{atan2}$, реализованную во многих языках программирования. Она позволяет точно определить четверть угла, тогда как обычный арктангенс ограничен 1 и 4 четвертями. Например, для угла рыскания это будет выглядеть так:
