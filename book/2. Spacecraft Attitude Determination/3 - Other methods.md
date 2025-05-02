@@ -16,7 +16,7 @@ $$\overline{v}_i^{\text{I}},\ \ \ \ i=1, .., N.$$
 Связь между векторами задается матрицей ориентации $\textbf{C}_{\text{I} \rightarrow \text{B}}$:
 
 $$
-\overline{v}_i^{\text{B}} = \textbf{C}_{\text{I} \rightarrow \text{B}}\ \overline{v}_i^{\text{I}}.
+\overline{v}_i^{\text{B}} = \textbf{C}_{\text{I} \rightarrow \text{B}}\ \overline{v}_i^{\text{I}},\ \ \ \ i=1, .., N.
 $$
 
 Задача сводится к нахождению такой матрицы поворота $\textbf{C}_{\text{I} \rightarrow \text{B}}$, которая минимизирует суммарную невязку между измеренными и расчетными векторами:
